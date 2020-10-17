@@ -1,0 +1,66 @@
+.bg-hero {
+	background: url(../img/X1NvC8.png);
+	background-position: top;
+	background-size: ;
+	background-repeat: no-repeat;
+}
+
+.bg-core {
+	background-color: #04050A;
+}
+
+
+
+.pedra-left{
+	left: 200px;
+	margin-top: -20px;
+	position: absolute;
+}
+
+.pedra-right{
+	right: 200px;
+	margin-top: -20px;
+	position: absolute;
+}
+
+.line {
+	background: url(../img/line.png);
+}
+
+.bk-right{
+	right: -293px;
+	margin-top: -20px;
+	position: absolute;
+}
+
+.dl-left{
+	left: -5px;
+	margin-top: -20px;
+	position: absolute;
+}
+
+.noping-right{
+	right: -220px;
+	margin-top: 6rem;
+	position: absolute;
+}
+
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2693FF, 0 0 40px #2693FF, 0 0 50px #2693FF, 0 0 60px #2693FF, 0 0 70px #2693FF;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #864BA9, 0 0 40px #864BA9, 0 0 50px #864BA9, 0 0 60px #864BA9, 0 0 70px #864BA9, 0 0 80px #864BA9;
+  }
+}
